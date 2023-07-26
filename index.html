@@ -6,6 +6,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="index.css">
 
   <!-- Bootstrap CSS v5.2.1 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -15,22 +16,78 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container">
-        <a class="navbar-brand" href="#"></a>
+        <a class="navbar-brand d-flex align-items-center" id="logo" href="#">
+          <img src="./assets/logos/Resume_Logo_removebg_preview_2.png">
+          <h2 class="ms-n6">FutureResume</h2>
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse d-flex gap-5" id="navbarNav">
-          <button type="button" class="btn btn-primary">Sign up</button>
-          <button type="button" class="btn btn-primary">Sign in</button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="navbar-nav d-flex gap-5 ms-auto align-items-center">
+            <button type="button" class="btn btn-success bg-transparent text-black px-5 py-2 rounded-pill"
+              id="round-btn">Sign up</button>
+            <button type="button" class="btn btn-primary px-5 py-2 rounded-pill" id="round-btn">Sign in</button>
+          </div>
         </div>
       </div>
     </nav>
   </header>
   <main>
+    <section id="section_1 padding-effect">
+      <div class="container mt-5 ms-n5">
+        <div class="row d-flex gap-5 align-items-center">
+          <div class="col-12 col-lg-5 d-flex flex-column align-items-center gap-3">
+            <div>
+              <img src="./assets/logos/Rectangle_circle.png" class="img_circle" alt="">
+              <h2 class="fs-1">Create a <span class="orange-color">resume</span> that secures your <span
+                  class="orange-color">dream job</span> </h2>
+            </div>
+            <p class="fs-6">Build a resume thats piques the interest of
+              recruiters and gets you hired. <span class="apostrophe">It</span>s fast and easy to use.
+            </p>
+            <div class="">
+              <button type="button" class="fs-5 btn btn-primary px-5 py-2 rounded-pill text-center" id="round-btn">Try
+                for free</button>
+              <img src="./assets/logos/Group_square.png" class="ms-5 mt-n5">
+            </div>
+          </div>
+          <div class="col-12 col-lg-5 relative">
+            <img src="./assets/images/Resume_TEMPLATE_EDITOR.png" class="w-100" alt="">
+            <img src="./assets/logos/Polygon_triangle.png" class="absolute logo-triangle">
+            <img src="./assets/logos/Rectangle_circle.png" class="absolute logo-circle">
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section id="section_1">
+      <div class="container mt-5">
+        <div class="row d-flex border border-danger">
+          <h2 class="text-center">Build your <span class="orange-color">resume</span> in 3 steps</h2>
+          <div class="col-12 col-lg-5 d-flex justify-content-between border border-danger w-100 align-items-center">
+            <div class="d-flex align-items-center">
+              <img src="./assets/logos/image_1.png" alt="">
+              <div class="d-flex orange-color">
+                <h2 class="fs-1 fw-bold lh-5">1.</h2>
+                <div>
+                  <h3>Pick a Template</h3>
+                  <p>Download your resume, apply, get more interviews.</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img src="./assets/logos/Rectangle_circle.png" alt="">
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
   </main>
   <footer>
     <!-- place footer here -->

@@ -1,0 +1,44 @@
+:root {
+  --primary-color: #FF5C00;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+#logo {
+  margin-left: -30px;
+}
+.ms-n6 {
+  margin-left: -29px;
+  color: var(--primary-color);
+}
+#round-btn {
+  border: 1px solid var(--primary-color);
+  background: var(--primary-color);
+}
+.orange-color {
+  color: var(--primary-color);
+}
+.img_circle {
+  margin: 20px 0 0 30px;
+}
+.apostrophe:after {
+  content: ' \02BC';
+}
+.logo-triangle {
+  top: -30px;
+  right: -65px;
+}
+.logo-circle {
+  bottom: 0;
+  left: 93%;
+  z-index: -4;
+}
+/* @media screen and (max-width: 620px) {
+
+  .logo-circle, .logo-triangle {
+    display: none;
+  }
+} */
