@@ -1,44 +1,155 @@
 :root {
   --primary-color: #FF5C00;
 }
+
 .relative {
   position: relative;
 }
+
 .absolute {
   position: absolute;
 }
+
 #logo {
   margin-left: -30px;
 }
+
 .ms-n6 {
   margin-left: -29px;
   color: var(--primary-color);
 }
+
 #round-btn {
   border: 1px solid var(--primary-color);
   background: var(--primary-color);
 }
+
 .orange-color {
   color: var(--primary-color);
 }
+
 .img_circle {
   margin: 20px 0 0 30px;
 }
+
 .apostrophe:after {
   content: ' \02BC';
 }
+
 .logo-triangle {
   top: -30px;
   right: -65px;
 }
+
 .logo-circle {
   bottom: 0;
   left: 93%;
   z-index: -4;
 }
+
+.font-size {
+  font-size: 48px;
+}
+
+.group_square {
+  top: 20px;
+  left: -90px;
+}
+
+.poly-triangle {
+  top: -100px;
+  right: 100px;
+}
+
+.section-3-bgimage {
+  background: url("./assets/logos/sect-3-bgimg.png") no-repeat;
+  background-image: cover;
+  height: 100%;
+}
+
+.multi-ul {
+  gap: 10px;
+  left: -13px;
+}
+
+.line-partition {
+  height: 1px;
+  width: 60px;
+  rotate: 90deg;
+  background: black;
+}
+
+.light-bg {
+  background: rgb(250, 251, 252);
+}
+
+.orange_dots {
+  left: -20px;
+  top: -10px;
+  z-index: -1;
+}
+
+.purple_dots {
+  bottom: 0;
+  right: 5px;
+  z-index: -2;
+}
+
+.final_background {
+  background: url("./assets/logos/background_final.png"), url("./assets/logos/background_2.png"), url("./assets/logos/background_3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  /* width: 100%; */
+}
+#column-css {
+  margin-top: 200px;
+}
+.rounded-circle-x {
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  background: #D9D9D9;
+  margin: 5px 0 0 5px;
+}
+#white-background {
+  background: white;
+  height: 200px;
+  width: 400px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,.2);
+}
+.partion {
+  margin: auto;
+  height: 2px;
+  width: 90%;
+  background: whitesmoke;
+  margin: 20px auto;
+}
+.white-circle, .gray-circle{
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background: hsla(0, 0%, 85%, 0.3);
+  rotate: 90deg;
+}
+.white-circle {
+  left: 50%;
+  top: -10px;
+}
+.gray-circle {
+  background: white;
+  left: 47%;
+  top: -10px;
+}
+
+
 /* @media screen and (max-width: 620px) {
 
-  .logo-circle, .logo-triangle {
+  .logo-circle, .logo-triangle, .logo-group {
     display: none;
+  }
+  .flex-reverse {
+    display: flex;
+    flex-direction: column;
   }
 } */
